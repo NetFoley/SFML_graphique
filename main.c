@@ -385,11 +385,10 @@ sfVector2f rebond(sfVector2f direc, sfVector2f posBall, sfVector2f dimBall, sfVe
 }
 
 sfVector2f rebondBarre(sfVector2f direc, sfVector2f posBall, sfVector2f posPong, sfVector2f dimPong) {
-        direc.x = ((posBall.x - posPong.x)/(dimPong.x/2));
+        direc.x = ((posBall.x - posPong.x)/(dimPong.x/2)) +0.15;
         direc.y = -(fabs(1 - fabs(direc.x)));
         printf("rebond haut sur barre direc.x = %f direc.y = %f\n", direc.x, direc.y);
         return direc;
-
 }
 
 void ajouterText(text1, text2, taille)
