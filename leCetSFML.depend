@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1571737199 source:d:\netfo\documents\ludus\c\lecetsfml\main.c
+1572946866 source:d:\netfo\documents\ludus\c\lecetsfml\main.c
 	<stdio.h>
 	<stdlib.h>
 	<SFML/Window.h>
